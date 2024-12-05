@@ -1,0 +1,46 @@
+http://localhost:3000/api/clientes/create
+http://localhost:3000/api/clientes/update
+{
+    "ClienteId": 0,
+    "Nombre": "Jose Molina",
+    "Identidad": "0508088707070707"
+}
+http://localhost:3000/api/clientes/getall
+http://localhost:3000/api/clientes/getById/5
+--------------------------------------------------------------------------
+http://localhost:3000/api/productos/create
+http://localhost:3000/api/productos/update
+{
+    "ProductoId": 0,
+    "Nombre": "TV",
+    "Descripcion": "Se mira el tv",
+    "Precio": "3.99",
+    "Existencia": "45"
+}
+http://localhost:3000/api/productos/getall
+http://localhost:3000/api/productos/getById/5
+--------------------------------------------------------------------------
+http://localhost:3000/api/ordenes/create
+{
+    "OrdenId": "0",
+    "ClienteId": "1",
+    "Detalle": [
+        {
+            "ProductoId": "1",
+            "Cantidad": "5"
+        },
+        {
+            "ProductoId": "2",
+            "Cantidad": "4"
+        },
+        {
+            "ProductoId": "5",
+            "Cantidad": "4"
+        }
+    ]
+}
+
+
+
+
+
